@@ -19,7 +19,7 @@ CookBook is an AI-driven cooking assistant that uses **semantic search** and **L
 ✔️ **Fine-Tuned LLAMA 2 Model** – LoRA fine-tuned on a dataset of diverse recipes.  
 ✔️ **Web-Scraped Recipes Dataset** – Extracted using **BeautifulSoup** from trusted recipe sources.  
 ✔️ **Full-Stack Web Application** – **React.js (Frontend) + Flask (Backend)** for a smooth experience.  
-✔️ **Model Deployment** – Served via **Ngrok API on Google Colab** with future **Vercel Deployment**.  
+✔️ **Model Deployment** – Served via **Fast API on Hugging Face** with **Vercel Deployment**.  
 
 ---
 
@@ -41,8 +41,8 @@ CookBook is an AI-driven cooking assistant that uses **semantic search** and **L
 ### **Full-Stack Development**  
 - **Frontend:** React.js + Axios  
 - **Backend:** Flask API  
-- **Deployment:** Vercel (Frontend) & Ngrok (Backend API)  
-- **Colab for Model Serving**  
+- **Deployment:** Vercel (Frontend) & FastAPI (Backend API)  
+- **Hugging Face for Model Serving**  
 
 ---
 
@@ -110,7 +110,6 @@ Now, you can access **CookBook** through your deployed Vercel link!
 ✅ Improve recipe filtering (e.g., vegetarian, allergy-based)  
 ✅ Add user authentication & recipe saving  
 ✅ Allow user to give feedback on recipes  
-✅ Deploy backend API on a cloud server for persistent access  
 
 ---
 

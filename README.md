@@ -6,20 +6,21 @@
 <img width="1388" alt="image" src="https://github.com/user-attachments/assets/48072486-a2e0-4537-91c7-5500b700c9cf" />
 
 
-CookBook is an AI-driven cooking assistant that uses **semantic search** and **LLAMA 2 (LoRA fine-tuned)** on a **web-scraped recipe dataset** to suggest personalized recipes. Simply tell the chatbot what ingredients you have or describe the dish you want, and it will generate the perfect recipe for you!  
+CookBook is an AI-driven cooking assistant that uses **LLAMA 2 (LoRA fine-tuned)** on a **web-scraped recipe dataset** to suggest personalized recipes. Simply tell the chatbot what ingredients you have or describe the dish you want, and it will generate the perfect recipe for you! 
 
 ---
-🚀 **Live Demo:** *[Coming Soon – Vercel Deployment]*  
+🚀 **Live Demo:**  https://cook-book-phi.vercel.app/ 
 
 ---
 
 ## 🌟 **Key Features**  
 ✔️ **AI-Powered Recipe Suggestions** – Find recipes based on your ingredients or dietary preferences.  
-✔️ **Semantic Search for Ingredients** – Uses **Sentence Transformers (MiniLM L6 V2)** to match recipes intelligently.  
-✔️ **Fine-Tuned LLAMA 2 Model** – LoRA fine-tuned on a dataset of diverse recipes.  
+✔️ **Semantic Search for Ingredients** – Uses **Sentence Transformers (MiniLM L6 V2)** to match recipes intelligently.
+✔️ **Fine-Tuned LLAMA 2 Model** – LoRA fine-tuned on a dataset of diverse recipes.
+✔️ **LangChain Chat History** – Retains memory for in context dialogues
 ✔️ **Web-Scraped Recipes Dataset** – Extracted using **BeautifulSoup** from trusted recipe sources.  
-✔️ **Full-Stack Web Application** – **React.js (Frontend) + Flask (Backend)** for a smooth experience.  
-✔️ **Model Deployment** – Served via **Fast API on Hugging Face** with **Vercel Deployment**.  
+✔️ **Full-Stack Web Application** – **React+Vite+Tailwind (Frontend) & FastAPI+ngrok+uvicorn (Backend)** for a smooth experience.  
+✔️ **Model Deployment** – Served via **Fast API on Colab** with **Vercel Deployment** (cause its too expensive to deploy this live T-T)
 
 ---
 
@@ -40,9 +41,9 @@ CookBook is an AI-driven cooking assistant that uses **semantic search** and **L
 
 ### **Full-Stack Development**  
 - **Frontend:** React.js + Axios  
-- **Backend:** Flask API  
+- **Backend:** Fast API  
 - **Deployment:** Vercel (Frontend) & FastAPI (Backend API)  
-- **Hugging Face for Model Serving**  
+- **Colab for Model Serving**  
 
 ---
 
@@ -100,10 +101,9 @@ Now, you can access **CookBook** through your deployed Vercel link!
 ---
 
 ## 📸 **Screenshots**  
-| Recipe Search | AI Response |  
-|--------------|------------|  
-| *[Screenshot]* | *[Screenshot]* |  
-
+![Screenshot2123](https://github.com/user-attachments/assets/64b8a371-b3a2-4a5c-ae44-8bea4d567c62)
+![sdfasdf](https://github.com/user-attachments/assets/552a54df-1197-4c5d-b39c-f34b024b594f)
+![finally oof](https://github.com/user-attachments/assets/b7249f4d-b9ea-48c8-a658-9e8290082049)
 ---
 
 ## 🛠️ **Future Enhancements**  
@@ -112,6 +112,20 @@ Now, you can access **CookBook** through your deployed Vercel link!
 ✅ Allow user to give feedback on recipes  
 
 ---
+<div style="display: flex; align-items: center;">
+<img src="https://img.shields.io/badge/-HuggingFace-FDEE21?style=for-the-badge&logo=HuggingFace&logoColor=black" />
+<img src="https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white" />
+<img src="https://img.shields.io/badge/ngrok-140648?style=for-the-badge&logo=Ngrok&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+<img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" />
+<img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+</div>
 
 ## 👨‍💻 **Contributors**  
 - **[Diya Nigam]** – Developer & AI Model Trainer

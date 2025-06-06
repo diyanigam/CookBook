@@ -41,7 +41,7 @@ export default function App() {
     setIsResponding(true);
 
     try {
-      const res = await fetch(`${apiUrl}`, {
+      const res = await fetch(`${apiUrl}/chat/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

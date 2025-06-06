@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/**/*.py": {
+      "maxDuration": 60 // Set to 60 seconds (maximum for Hobby plans)
+    }
+  }
+}

@@ -13,7 +13,7 @@ export default function App() {
   const [isResponding, setIsResponding] = useState(false);
   const [includedIngredients, setIncludedIngredients] = useState([]);
   const [excludedIngredients, setExcludedIngredients] = useState([]);
-  const API_URL = import.meta.env.VITE_API_URL;
+  const apiUrl = import.meta.env.VITE_API_URL;
 
 
   const fetchBotResponse = async (userInput) => {
@@ -26,8 +26,8 @@ export default function App() {
 
     function extractLastAIResponse(text) {
         const lastIndex = text.lastIndexOf('AI:');
-        if (lastIndex === -1) return text; // fallback if "AI:" not found
-        return text.slice(lastIndex + 3).trim(); // skip "AI:" itself (+3 chars)
+        if (lastIndex === -1) return text;
+        return text.slice(lastIndex + 3).trim();
       }
 
 
@@ -41,7 +41,7 @@ export default function App() {
     setIsResponding(true);
 
     try {
-      const res = await fetch(API_URL, {
+      const res = await fetch(`${apiUrl}/chat/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
